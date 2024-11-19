@@ -57,7 +57,7 @@ class _AddStudentPageState extends State<AddStudentPage> {
                     labelText: 'Name',
                     labelStyle: TextStyle(fontSize: 20),
                     border: OutlineInputBorder(),
-                    errorStyle: TextStyle(color: Colors.red,fontSize: 15),
+                    errorStyle: TextStyle(color: Colors.redAccent,fontSize: 15),
                   ),
                   validator: (value){
                     if(value==null|| value.isEmpty){
@@ -76,7 +76,7 @@ class _AddStudentPageState extends State<AddStudentPage> {
                     labelText: 'Email',
                     labelStyle: TextStyle(fontSize: 20),
                     border: OutlineInputBorder(),
-                    errorStyle: TextStyle(color: Colors.red,fontSize: 15),
+                    errorStyle: TextStyle(color: Colors.redAccent,fontSize: 15),
                   ),
                   validator: (value){
                     if(value==null|| value.isEmpty){
@@ -99,7 +99,7 @@ class _AddStudentPageState extends State<AddStudentPage> {
                     labelText: 'Password',
                     labelStyle: TextStyle(fontSize: 20),
                     border: OutlineInputBorder(),
-                    errorStyle: TextStyle(color: Colors.red,fontSize: 15),
+                    errorStyle: TextStyle(color: Colors.redAccent,fontSize: 15),
                   ),
                   validator: (value){
                     if(value==null|| value.isEmpty){

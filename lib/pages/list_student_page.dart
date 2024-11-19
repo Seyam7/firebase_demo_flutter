@@ -103,7 +103,7 @@ class _ListStudentPageState extends State<ListStudentPage> {
                           },
                           icon: Icon(
                             Icons.edit,
-                            color: Colors.orange,
+                            color: Colors.amber,
                           ),
                       ),
                       IconButton(
@@ -112,7 +112,7 @@ class _ListStudentPageState extends State<ListStudentPage> {
                         },
                         icon: Icon(
                           Icons.delete,
-                          color: Colors.red,
+                          color: Colors.redAccent,
                         ),
                       ),
                     ],
